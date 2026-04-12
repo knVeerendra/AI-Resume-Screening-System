@@ -42,7 +42,7 @@ files = st.file_uploader(
 
 top_n = st.slider("Top Candidates", 1, 20, 5)
 
-run = st.button("🚀 Analyze Candidates", use_container_width=True)
+run = st.button(" Analyze Candidates", use_container_width=True)
 
 # -------- OUTPUT -------- #
 if run and jd and files:
@@ -68,7 +68,7 @@ if run and jd and files:
         score = float(score)
 
         if i == 0:
-            st.markdown("### 🏆 Best Candidate")
+            st.markdown("###  Best Candidate")
 
         st.write(f"**{file.name}**")
 
