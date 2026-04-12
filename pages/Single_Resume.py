@@ -36,7 +36,7 @@ jd = st.text_area(
 
 file = st.file_uploader("Upload Resume")
 
-run = st.button("🚀 Analyze Resume", use_container_width=True)
+run = st.button(" Analyze Resume", use_container_width=True)
 
 # -------- OUTPUT -------- #
 if run and jd and file:
