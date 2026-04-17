@@ -1,5 +1,10 @@
+fastapi
+uvicorn
 streamlit
+requests
+pymupdf
 sentence-transformers
 scikit-learn
-pymupdf
 pandas
+numpy
+python-multipart
