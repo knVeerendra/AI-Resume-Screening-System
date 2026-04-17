@@ -155,36 +155,7 @@ http://localhost:8501
 
 ---
 
-## 🧪 How It Works
 
-1. Enter a **Job Description**
-2. Upload one or more resumes
-3. System computes:
-
-   * Semantic similarity
-   * Skill match
-   * Experience match
-4. Candidates are ranked accordingly
-
----
-
-## 📊 Example Output
-
-* **Final Score:** 82%
-* **Decision:** Strong Match
-
-**Matched Skills:**
-
-* Python
-* Machine Learning
-* NLP
-
-**Missing Skills:**
-
-* Docker
-* AWS
-
----
 
 ## 🎯 Use Cases
 
@@ -195,12 +166,7 @@ http://localhost:8501
 
 ---
 
-## 🔮 Future Improvements
 
-* LLM-based explanation (“Why selected?”)
-* Advanced skill extraction using NLP
-* Resume section parsing (education, projects)
-* Deployment (AWS / Render)
 
 ---
 
